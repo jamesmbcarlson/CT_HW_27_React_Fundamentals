@@ -1,0 +1,15 @@
+:root {
+  background-color: #242424;
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+body > * {
+  margin:auto;
+}

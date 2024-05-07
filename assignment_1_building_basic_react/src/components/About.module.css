@@ -1,0 +1,40 @@
+.about {
+    height: 100%;
+
+    margin-top: 0;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(110deg, rgb(40, 53, 10), rgb(7, 51, 33));
+    color: white;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    border-top: 2px solid white;
+}
+
+.about .textContainer {
+    width: 680px;
+    
+    padding: 10px 40px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    border-radius: 25px;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about p {
+    text-align:justify;
+}
+
+@media screen and (max-width: 758px) {
+    .about .textContainer {
+        width: 100%;
+    }
+}

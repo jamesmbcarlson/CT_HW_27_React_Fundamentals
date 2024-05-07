@@ -1,0 +1,51 @@
+.contact {
+    height: 100%;
+
+    margin-top: 0;
+    padding: 30px;
+
+    
+
+    background: linear-gradient(110deg, rgb(185,148,106), rgb(75,52,25));
+    color: white;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    border-top: 2px solid white;
+}
+
+.containerContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.contact .textContainer {
+    width: 680px;
+    
+    padding: 10px 40px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    border-radius: 25px;
+
+    text-align: center;
+}
+
+a {
+    color: rgb(144, 175, 233);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(95, 164, 230);
+}
+
+.contact p {
+    text-align: center;
+}
+
+@media screen and (max-width: 758px) {
+    .contact .textContainer {
+        width: 100%;
+    }
+}
